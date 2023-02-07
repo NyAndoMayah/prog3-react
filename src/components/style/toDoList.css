@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.todo-done{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vw;
+    width : 70vw; 
+    height: 70vh;
+    margin: auto;
+}
+.title-description{
+    width: 100vw;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    display: flex ;
+    justify-content: center;
+    padding: auto;
+    color: white
+}

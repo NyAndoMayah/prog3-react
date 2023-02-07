@@ -1,0 +1,32 @@
+.title-and-description{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width : 32vw;
+    height: 70vh;
+    overflow-y: scroll;
+    border-radius: 15px;
+}
+.list-element{
+    width: 30vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.699);
+    margin: 0.5vw;
+    border-radius: 15px;
+    padding:  0.3vw;
+}
+.input{
+    width: 30vw;
+    height: 5vh;
+    margin: 0.5vw;
+}
